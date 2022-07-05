@@ -4,8 +4,6 @@
 
 ### Implemented by Brigham Young University - Idaho's Cyber Security Association for college-wide "Web Application Security Hackathon"
 
-```git clone https://github.com/iteratec/multi-juicer```
-
 First, you need to configure your kubectl configuration to communicate with the cluster server.
 
 config file contents (changed REDACTED to fit your particular integration)
@@ -32,6 +30,8 @@ users:
 ```
 
 Then move that file to ~/.kube/config (it's ok if the .kube directory doesn't exist yet, create it if it doesn't.
+
+```git clone https://github.com/iteratec/multi-juicer```
 
 ```helm repo add multi-juicer https://iteratec.github.io/multi-juicer/```
 
